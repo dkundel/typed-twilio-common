@@ -1,8 +1,9 @@
 {
-  "name": "Twilio Common SDK",
+  "name": "Twilio",
   "main": "index.d.ts",
   "homepage": "https://www.twilio.com",
-  "version": "",
+  "version": "0.1.5",
+  "global": true,
   "globalDependencies": {
     "node": "registry:env/node#6.0.0+20160918225031"
   },
