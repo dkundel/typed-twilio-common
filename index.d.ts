@@ -1,6 +1,6 @@
 import events = require('events');
 
-declare namespace Twilio {
+declare module Twilio {
   export class AccessManager extends events.EventEmitter {
     constructor(initialToken: string);
     identity: string | null;
