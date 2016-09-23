@@ -13,3 +13,7 @@ declare namespace Twilio {
     on(event: 'tokenUpdated', callback: (manager: AccessManager) => void): this;
   }
 }
+
+declare module "twilio-common" {
+  export = Twilio;
+}
