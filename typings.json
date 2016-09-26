@@ -1,5 +1,5 @@
 {
-  "name": "Twilio",
+  "name": "twilio-common",
   "main": "index.d.ts",
   "homepage": "https://www.twilio.com",
   "version": "0.1.5",
